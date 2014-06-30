@@ -22,7 +22,7 @@
 #include <poll.h>
 #include <sys/ioctl.h>
 #include <linux/fb.h>
-#include <linux/omapfb.h>
+#include <../include/linux/omapfb.h>
 #include <sys/mman.h>
 #include <stdbool.h>
 #include <sys/resource.h>
@@ -42,7 +42,7 @@
 #include <edid_parser.h>
 #endif
 
-#include <linux/bltsville.h>
+#include <../include/linux/bltsville.h>
 
 #define MAX_BLIT_OPS RGZ_MAXLAYERS * RGZ_SUBREGIONMAX
 #define MAX_HWC_LAYERS 32
@@ -58,8 +58,8 @@
 #define WIDTH(rect) ((rect).right - (rect).left)
 #define HEIGHT(rect) ((rect).bottom - (rect).top)
 
-#include <video/dsscomp.h>
-#include <video/omap_hwc.h>
+#include <../include/video/dsscomp.h>
+#include <../include/video/omap_hwc.h>
 
 #include "hal_public.h"
 #include "rgz_2d.h"

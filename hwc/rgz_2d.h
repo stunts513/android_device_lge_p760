@@ -16,7 +16,7 @@
 #ifndef __RGZ_2D__
 #define __RGZ_2D__
 
-#include <linux/bltsville.h>
+#include <../include/linux/bltsville.h>
 
 /*
  * Regionizer data
