@@ -149,6 +149,16 @@ PRODUCT_PACKAGES += \
     charger \
     charger_res_images
 
+#Kernel stuff
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/kernel:kernel \
+    $(LOCAL_PATH)/modules/ansi_cprng.ko:system/lib/modules/ansi_cprng.ko \
+    $(LOCAL_PATH)/modules/omaplfb_sgx540_120.ko:system/lib/modules/omaplfb_sgx540_120.ko \
+    $(LOCAL_PATH)/modules/pvrsrvkm_sgx540_120.ko:system/lib/modules/pvrsrvkm_sgx540_120.ko \
+    $(LOCAL_PATH)/modules/rpmsg_client_sample.ko:system/lib/modules/rpmsg_client_sample.ko \
+    $(LOCAL_PATH)/modules/rpmsg_server_sample.ko:system/lib/modules/rpmsg_server_sample.ko \
+    $(LOCAL_PATH)/modules/scsi_wait_scan.ko:system/lib/modules/scsi_wait_scan.ko
+
 PRODUCT_BUILD_PROP_OVERRIDES += BUILD_UTC_DATE=0
 PRODUCT_NAME := full_p760
 PRODUCT_DEVICE := p760
