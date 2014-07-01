@@ -108,3 +108,6 @@ BOARD_SEPOLICY_UNION := \
     domain.te
 
 BOARD_HARDWARE_CLASS := device/lge/p760/cmhw/
+
+#Kernel defines and etc
+TARGET_PREBUILT_KERNEL := device/lge/p760/kernel
