@@ -153,8 +153,8 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/kernel:kernel \
     $(LOCAL_PATH)/modules/ansi_cprng.ko:system/lib/modules/ansi_cprng.ko \
-    $(LOCAL_PATH)/modules/omaplfb_sgx540_120.ko:system/lib/modules/omaplfb_sgx540_120.ko \
-    $(LOCAL_PATH)/modules/pvrsrvkm_sgx540_120.ko:system/lib/modules/pvrsrvkm_sgx540_120.ko \
+    $(LOCAL_PATH)/modules/omaplfb_sgx540_120.ko:system/modules/omaplfb_sgx540_120.ko \
+    $(LOCAL_PATH)/modules/pvrsrvkm_sgx540_120.ko:system/modules/pvrsrvkm_sgx540_120.ko \
     $(LOCAL_PATH)/modules/rpmsg_client_sample.ko:system/lib/modules/rpmsg_client_sample.ko \
     $(LOCAL_PATH)/modules/rpmsg_server_sample.ko:system/lib/modules/rpmsg_server_sample.ko \
     $(LOCAL_PATH)/modules/scsi_wait_scan.ko:system/lib/modules/scsi_wait_scan.ko
